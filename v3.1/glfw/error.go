@@ -106,7 +106,7 @@ func (e *Error) Error() string {
 }
 
 // Note: There are many cryptic caveats to proper error handling here.
-// See: https://github.com/go-gl/glfw3/pull/86
+// See: https://github.com/HACKERALERT/glfw3/pull/86
 
 // Holds the value of the last error.
 var lastError = make(chan *Error, 1)
@@ -145,7 +145,7 @@ func flushErrors() {
 //
 // Platform errors are always printed, for information why please see:
 //
-//  https://github.com/go-gl/glfw/issues/127
+//  https://github.com/HACKERALERT/glfw/issues/127
 //
 func acceptError(codes ...ErrorCode) error {
 	// Grab the next error, if there is one.

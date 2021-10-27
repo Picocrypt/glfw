@@ -7,7 +7,7 @@ package glfw
 #include "glfw/include/GLFW/glfw3native.h"
 
 // workaround wrappers needed due to a cgo and/or LLVM bug.
-// See: https://github.com/go-gl/glfw/issues/136
+// See: https://github.com/HACKERALERT/glfw/issues/136
 void *workaround_glfwGetCocoaWindow(GLFWwindow *w) {
 	return (void *)glfwGetCocoaWindow(w);
 }
