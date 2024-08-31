@@ -1,3 +1,3 @@
-module github.com/HACKERALERT/glfw/v3.3/glfw
+module github.com/Picocrypt/glfw/v3.3/glfw
 
-go 1.10
+go 1.18
